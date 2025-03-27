@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice Table</title>
+    <style>
+        table{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background-color: blue;
+            color: white;
+
+        }
+        tr:hover {
+            background-color: red;
+            color: black;
+        }
+        caption{
+            color: black;
+            font-size: 35px;
+            font-weight: bold;
+            padding: 5px;
+        }
+        table,th,td{
+            border: 3px solid rgb(27, 0, 0);
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        th,td{
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        a{
+            color: black;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>STUDENT TABLE</caption>
+        <thead>
+            <tr>
+                <th>Roll NO</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+                <th>Semester</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>IUK</td>
+                <td>22</td>
+                <td>Computer Science</td>
+                <td>4th</td>
+                <td><a href="mailto:123@example.com">123@example.com</a></td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Khan</td>
+                <td>21</td>
+                <td>Computer Science</td>
+                <td>4th</td>
+                <td><a href="mailto:123@example.com">123@example.com</a></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>IUK3</td>
+                <td>22</td>
+                <td>Computer Science</td>
+                <td>4th</td>
+                <td><a href="mailto:123@example.com">123@example.com</a></td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>IUK4</td>
+                <td>23</td>
+                <td>Computer Science</td>
+                <td>4th</td>
+                <td><a href="mailto:123@example.com">123@example.com</a></td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>IUK5</td>
+                <td>23</td>
+                <td>Computer Science</td>
+                <td>4th</td>
+                <td><a href="mailto:123@example.com">123@example.com</a></td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>IUK6</td>
+                <td>23</td>
+                <td>Computer Science</td>
+                <td>4th</td>
+                <td><a href="mailto:123@example.com">123@example.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
